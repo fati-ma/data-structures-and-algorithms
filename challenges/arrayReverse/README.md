@@ -13,4 +13,4 @@ Space complexity: O(1).
 
 ## Solution
 
-[array-reverse](assets/array-reverse.JPG)
+![array-reverse](arrayReverse/assets/array-reverse.JPG)
