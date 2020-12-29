@@ -21,4 +21,4 @@ Space complexity: O(1).
 
 ## Solution
 
-![array-bianry-search](arrayBinarySearch/assets/array-bianry-search.png)
+![array-bianry-search](/assets/array-bianry-search.png)
