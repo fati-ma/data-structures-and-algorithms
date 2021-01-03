@@ -1,5 +1,5 @@
 TN:
-SF:linkedList/linked-list.js
+SF:linked-list.js
 FN:6,(anonymous_0)
 FN:10,(anonymous_1)
 FN:25,(anonymous_2)
@@ -48,7 +48,7 @@ BRF:8
 BRH:5
 end_of_record
 TN:
-SF:linkedList/node.js
+SF:node.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:1
