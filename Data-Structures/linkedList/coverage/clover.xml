@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1609663310659" clover="3.2.0">
+  <project timestamp="1609663310659" name="All files">
+    <metrics statements="27" coveredstatements="25" conditionals="8" coveredconditionals="5" methods="5" coveredmethods="5" elements="40" coveredelements="35" complexity="0" loc="27" ncloc="27" packages="1" files="2" classes="2"/>
+    <file name="linked-list.js" path="/mnt/c/Users/LTUC/401/DS-Algo-401/data-structures-and-algorithms/Data-Structures/linkedList/linked-list.js">
+      <metrics statements="24" coveredstatements="22" conditionals="8" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="29" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="35" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="43" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="3" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+    </file>
+    <file name="node.js" path="/mnt/c/Users/LTUC/401/DS-Algo-401/data-structures-and-algorithms/Data-Structures/linkedList/node.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
