@@ -2,6 +2,9 @@
 
 let LL = require('../linked-list.js');
 
+const zipLists = require('../ll-zip.js');
+
+
 describe('Linked List Module', () => {
 
     let linkedList = new LL();
@@ -75,27 +78,89 @@ describe('Linked List Module', () => {
 
     it('can return an element from the middle of the linked list using kthFromEnd', async () => {
         expect(linkedList.kthFromEnd(3)).toEqual('after appendedValue');
-      })
-  
-      it('can find the first element in the list using kthFromEnd - where k and the length of the list are the same', async () => {
+    })
+
+    it('can find the first element in the list using kthFromEnd - where k and the length of the list are the same', async () => {
         expect(linkedList.kthFromEnd(10)).toEqual('before newNode-2');
-      })
-  
-      it('can throw an error if k is greather than the length of the list', async () => {
+    })
+
+    it('can throw an error if k is greather than the length of the list', async () => {
         expect(() => { linkedList.kthFromEnd(25) }).toThrow();
-      })
-  
-      it('can throw an error if k is a negative number', async () => {
+    })
+
+    it('can throw an error if k is a negative number', async () => {
         expect(() => { linkedList.kthFromEnd(-1) }).toThrow();
-      })
-  
-      it('can throw an error if k is is not a positive integer', async () => {
+    })
+
+    it('can throw an error if k is is not a positive integer', async () => {
         expect(() => { linkedList.kthFromEnd(1.5) }).toThrow();
-      })
-  
-      it('can return the item if linked list size is 1', async () => {
-        var newList = new LL();
+    })
+
+    it('can return the item if linked list size is 1', async () => {
+        let newList = new LL();
         newList.insert('size1');
         expect(newList.kthFromEnd(0)).toEqual('size1');
-      });
+    });
+
+    describe('LL-Zip Operation', () => {
+
+        it('can zip two lists correctly', async () => {
+            let ll1 = new LL();
+            ll1.append('a');
+            ll1.append('c');
+            ll1.append('e');
+
+            let ll2 = new LL();
+            ll2.append('b');
+            ll2.append('d');
+            ll2.append('f');
+
+            expect(zipLists(ll1, ll2).toString()).toEqual('{a} -> {b} -> {c} -> {d} -> {e} -> {f} -> NULL');
+        });
+
+        it('can zip two lists if first list is empty', async () => {
+            let ll2 = new LL();
+            ll2.append('b');
+            ll2.append('d');
+            ll2.append('f');
+            let ll1 = new LL();
+
+            expect(zipLists(ll1, ll2).toString()).toEqual('{b} -> {d} -> {f} -> NULL');
+        });
+        it('can zip two lists if second list is empty', async () => {
+            let ll1 = new LL();
+            ll1.append('a');
+            ll1.append('c');
+            ll1.append('e');
+
+            let ll2 = new LL();
+
+            expect(zipLists(ll1, ll2).toString()).toEqual('{a} -> {c} -> {e} -> NULL');
+        });
+
+        it('can zip two lists if first list is shorter than the other', async () => {
+            let ll1 = new LL();
+            ll1.append('a');
+
+            let ll2 = new LL();
+            ll2.append('b');
+            ll2.append('d');
+            ll2.append('f');
+
+            expect(zipLists(ll1, ll2).toString()).toEqual('{a} -> {b} -> {d} -> {f} -> NULL');
+        });
+
+        it('can zip two lists if second list is shorter than the other', async () => {
+            let ll1 = new LL();
+            ll1.append('a');
+            ll1.append('c');
+            ll1.append('e');
+
+            let ll2 = new LL();
+            ll2.append('b');
+
+            expect(zipLists(ll1, ll2).toString()).toEqual('{a} -> {b} -> {c} -> {e} -> NULL');
+
+        });
+    });
 })
