@@ -1,6 +1,8 @@
 # Singly Linked Lists
 
+
 Defining these methods `insert()` `includes()` `toString()` `append(value)` `insertBefore(value, newVal)` `insertAfter(value, newVal)` `kth-from-end` and `zip linked list` on linked list. It was done using JavaScript.
+
 
 
 # Challenge
@@ -14,7 +16,9 @@ Defining these methods `insert()` `includes()` `toString()` `append(value)` `ins
    - `.append(value)` which adds a new node with the given `value` to the end of the list.
    - `.insertBefore(value, newVal)` which add a new node with the given `newValue` immediately before the first `value` node
    - `.insertAfter(value, newVal)` which add a new node with the given `newValue` immediately after the first `value` node
+
 - Write a function called `zipLists` which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.   
+
 
 
 
@@ -51,11 +55,11 @@ Defining these methods `insert()` `includes()` `toString()` `append(value)` `ins
 - Time - O(n)
 - Space - O(1)
 
-
 **kthFromEnd**
 
 - Time - O(n)
 - Space - O(1)
+
 
 **zipLists**:
 
@@ -76,6 +80,7 @@ Defining these methods `insert()` `includes()` `toString()` `append(value)` `ins
 
 ### Zip LL
 ![linked-lists-cc08](assets/ll-zip-1.png)
+
 
 
 

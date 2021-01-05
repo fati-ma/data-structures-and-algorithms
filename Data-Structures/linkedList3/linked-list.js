@@ -114,6 +114,7 @@ class LinkedList {
         }
         return 'Could not find the value provided in the linked list';
     }
+
     kthFromEnd(k) {
 
         if (k < 0) throw new Error('negative');
@@ -152,7 +153,6 @@ class LinkedList {
         return currentNode.value;
     }
 
-    
 }
 
 module.exports = LinkedList;
