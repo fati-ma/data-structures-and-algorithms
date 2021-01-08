@@ -16,6 +16,7 @@
 | Linked Lists -insertions   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/ll-insertions/Data-Structures/linkedList2)        |
 | Linked Lists -kth element   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/ll-kth-from-end/Data-Structures/linkedList3)        |
 | Linked Lists -ll-zip   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/ll-zip/Data-Structures/linkedList3)        |
+| Stack and Queue   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/stack-and-queue/Data-Structures/stacksAndQueues)        |
 
 
 
