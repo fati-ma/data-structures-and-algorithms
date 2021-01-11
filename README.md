@@ -7,7 +7,9 @@
 
 ### Table of contents
 
-| DS type      | Branch |
+***Note*** For a better experience or if one of the directories didn't open, make sure you are in the branch of each directory -*not the main branch*-, then click on the link
+
+| DS type      | Directory |
 | ----------- | ----------- |
 | Array Reverse      | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/array-reverse/challenges/arrayReverse)       |
 | Array Shift   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/array-shift/challenges/arrayShift)        |
@@ -18,6 +20,7 @@
 | Linked Lists -ll-zip   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/ll-zip/Data-Structures/linkedList3)        |
 | Stack and Queue   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/stack-and-queue/Data-Structures/stacksAndQueues)        |
 | Queue with 2 Stacks   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queueWithStack)        |
+| Animal Shelter - FIFO concept   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fifoAnimalShelter)        |
 
 
 
