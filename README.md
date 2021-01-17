@@ -22,7 +22,7 @@
 | Queue with 2 Stacks   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queueWithStack)        |
 | Animal Shelter - FIFO concept   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fifoAnimalShelter)        |
 | Multi Bracket Validation  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/multiBracketValidation)        |
-| Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/tree/challenges/tree)        |
+| Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/tree)        |
 
 
 
