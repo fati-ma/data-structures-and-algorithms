@@ -52,13 +52,25 @@ class BinaryTree {
         return results;
     }
 
-    // findMaximumValue() {
-    //     let currentNode = this.root;
-    //     while (currentNode.right) {
-    //       currentNode = currentNode.right;
-    //     }
-    //     return currentNode.value;
-    //   }
+    findMaximumValue(){
+
+        if(!this.root) return 'Tree is empty!';
+
+        let maxVal = this.root.value; //let max = root. NOT 0 or make sure that the nodes are all positive
+        const _traverse = (node) => { //create recursive function to traverse tree
+          if(maxVal < node.value){ //check if node is greater than previous node
+            maxVal = node.value; //if true then assign current node.value to maxVal
+          }
+          if(node.left) {
+            _traverse(node.left); //re-call the function for the left child
+          }
+          if(node.right){
+            _traverse(node.right); //re-call the function for the right child
+          }
+        }
+        _traverse(this.root); //invoke the recursive function to start
+        return maxVal; //return the max value
+      }
 }
 
 class BinarySearchTree {
@@ -66,13 +78,13 @@ class BinarySearchTree {
         this.root = null;
     }
     add(value) {
-        var node = new Node(value);
+        let node = new Node(value);
         if (!value && value !== 0) throw new Error('No value provided to add to the binary search tree');
         if (!this.root) {
             this.root = node;
             return;
         }
-        var currentNode = this.root;
+        let currentNode = this.root;
         while (currentNode) {
             if (currentNode.value === value) {
                 node.left = currentNode.left;
@@ -96,14 +108,15 @@ class BinarySearchTree {
         }
 
     }
+    //for BST
 
-    findMaximumValue() {
-        let currentNode = this.root;
-        while (currentNode.right) {
-            currentNode = currentNode.right;
-        }
-        return currentNode.value;
-    }
+    // findMaximumValue() {
+    //     let currentNode = this.root;
+    //     while (currentNode.right) {
+    //         currentNode = currentNode.right;
+    //     }
+    //     return currentNode.value;
+    // }
 
     contains(value) {
         let currentNode = this.root;
