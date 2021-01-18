@@ -52,25 +52,49 @@ class BinaryTree {
         return results;
     }
 
-    findMaximumValue(){
+    findMaximumValue() {
 
-        if(!this.root) return 'Tree is empty!';
+        if (!this.root) return 'Tree is empty!';
 
         let maxVal = this.root.value; //let max = root. NOT 0 or make sure that the nodes are all positive
         const _traverse = (node) => { //create recursive function to traverse tree
-          if(maxVal < node.value){ //check if node is greater than previous node
-            maxVal = node.value; //if true then assign current node.value to maxVal
-          }
-          if(node.left) {
-            _traverse(node.left); //re-call the function for the left child
-          }
-          if(node.right){
-            _traverse(node.right); //re-call the function for the right child
-          }
+            if (maxVal < node.value) { //check if node is greater than previous node
+                maxVal = node.value; //if true then assign current node.value to maxVal
+            }
+            if (node.left) {
+                _traverse(node.left); //re-call the function for the left child
+            }
+            if (node.right) {
+                _traverse(node.right); //re-call the function for the right child
+            }
         }
         _traverse(this.root); //invoke the recursive function to start
         return maxVal; //return the max value
-      }
+    }
+
+    breadthFirst() {
+        if (!this.root) return 'Tree is empty!'; //check if tree exists, if not escape
+
+        let breadthQ = []; //declare array works as queue to add the tree's nodes to it
+        let result = []; //declare output array
+        breadthQ.push(this.root); //push this.root into queue
+
+        while (breadthQ.length > 0) { //loop while queue exists
+
+            let frontNode = breadthQ.shift(); //pull off/remove  front (element at 0th idx) of queue put into temp var
+
+            result.push(frontNode.value);
+
+            if (frontNode.left) { //check for left child of the frontNode
+                breadthQ.push(frontNode.left); //push into queue
+            }
+            if (frontNode.right) { //check for right child
+                breadthQ.push(frontNode.right); //push into queue
+            }
+        }
+        return result; //return output array
+    }
+
 }
 
 class BinarySearchTree {

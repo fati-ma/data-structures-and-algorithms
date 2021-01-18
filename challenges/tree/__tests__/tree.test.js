@@ -34,16 +34,24 @@ describe('Binary Tree', () => {
     expect(preOrder).toEqual(expected);
   });
 
-    it('findMaximumValue()', () => {
-      let node = new Node(7)
-      tree = new BinaryTree(node);
-      tree.root.left = new Node(10);
-      tree.root.right= new Node(100);
-      tree.root.right.left = new Node(500);
-      tree.root.right.right = new Node(600);
-      expect(tree.findMaximumValue()).toEqual(600);
+  it('findMaximumValue()', () => {
+    // let node = new Node(7)
+    // tree = new BinaryTree(node);
+    tree.root.left.left.left = new Node(10);
+    tree.root.left.left.right = new Node(100);
+    tree.root.left.right.left = new Node(500);
+    tree.root.left.right.right = new Node(600);
+    expect(tree.findMaximumValue()).toEqual(600);
 
-    });
+  });
+
+  it('breadthFirst()', () => {
+    tree.root.right.left = new Node(20);
+    tree.root.right.right = new Node(755);
+    console.log(tree);
+    expect(tree.breadthFirst()).toEqual([1, 2, 3, 4, 5, 20, 755, 10, 100, 500, 600]);
+  });
+
 });
 describe('Binary search Tree', () => {
   let binarySearchTree = new BinarySearchTree();

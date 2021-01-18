@@ -20,21 +20,33 @@
 Write an instance method called `find-maximum-value`. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
 
+### Challenge 17
+
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+
 
 # Approach and Efficiency
+
+**Breadth First**
 
 - Time: O(n)
 - Space: O(1)
 
 
 
- # Solution
+# Solution
 
- **Tree**
+### Tree
 
- ![tree](assets/tree.png)
+![tree](assets/tree.png)
 
 
-**Find Max Value**
+### Find Max Value
 
 ![max-val](assets/tree-max-val.png)
+
+
+### Breadth First
+
+![breadth-first](assets/breadth-first.png)
