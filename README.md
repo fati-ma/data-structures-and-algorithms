@@ -23,6 +23,7 @@
 | Animal Shelter - FIFO concept   | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fifoAnimalShelter)        |
 | Multi Bracket Validation  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/multiBracketValidation)        |
 | Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/tree)        |
+| FizzBuzz Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fizzBuzzTree)        |
 
 
 
