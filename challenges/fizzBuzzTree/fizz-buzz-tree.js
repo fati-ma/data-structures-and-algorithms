@@ -8,8 +8,8 @@ class Node {
 }
 
 class kTree {
-    constructor(root = null) {
-        this.root = root;
+    constructor() {
+        this.root = null;
     }
 }
 
@@ -19,16 +19,18 @@ function FizzBuzzTree(kTree) {
         throw 'Tree is empty!';
     }
 
-    kTree.root.value = check(kTree.root.value);
+    let newTree = new kTree();
+    newTree.root = new Node(check(kTree.root.value));
 
-    const _traverse = (node) => {
-        node.children.forEach((child) => {
-            child.value = check(child.value);
-            _traverse(child);
+    const _traverse = (root, newRoot) => {
+        root.children.forEach((child) => {
+            newRoot.children.push(new Node(check(child.value)));
+            _traverse(child, newRoot.children[newRoot.children.length-1]);
         });
     };
 
-    _traverse(kTree.root);
+    _traverse(kTree.root, newTree.root);
+    return newTree;
 
     function check(value) {
         
@@ -42,7 +44,6 @@ function FizzBuzzTree(kTree) {
             return `${value}`; //If the value is not divisible by 3 or 5, simply turn the number into a String
         }
     }
-    return kTree; //Return a new tree.
 }
 
 module.exports = { Node, kTree, FizzBuzzTree };
