@@ -24,6 +24,7 @@
 | Multi Bracket Validation  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/multiBracketValidation)        |
 | Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/tree)        |
 | FizzBuzz Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fizzBuzzTree)        |
+| Insertion Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/insertion-sort/challenges/insertion-sort)        |
 
 
 
