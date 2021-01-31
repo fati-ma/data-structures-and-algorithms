@@ -25,4 +25,5 @@ As the algorithm loops through the array the lowest value is temporarily stored 
 
 ## Solution
 
+![code](assets/insertion-sort-code.JPG)
 
