@@ -25,6 +25,7 @@
 | Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/tree)        |
 | FizzBuzz Tree  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/fizzBuzzTree)        |
 | Insertion Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/insertion-sort/challenges/insertion-sort)        |
+| Merge Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/insertion-sort/challenges/merge-sort)        |
 
 
 
