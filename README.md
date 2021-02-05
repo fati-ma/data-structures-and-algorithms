@@ -27,6 +27,8 @@
 | Insertion Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/insertion-sort/challenges/insertion-sort)        |
 | Merge Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/merge-sort/challenges/merge-sort)        |
 | Quick Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/quick-sort/challenges/quickSort)        |
+| Hash Tables  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/Data-Structures/hashtable)        |
+
 
 
 
