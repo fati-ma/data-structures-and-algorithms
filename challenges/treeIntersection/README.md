@@ -17,4 +17,4 @@ This approach involves traversing through each tree and checking to see if its v
 
 ## API
 
-![tree-intersection](assets/tree-intersection.png)
+![tree-intersection](assets/tree-intersection.PNG)
