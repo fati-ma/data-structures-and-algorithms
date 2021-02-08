@@ -29,6 +29,9 @@
 | Quick Sort  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/quick-sort/challenges/quickSort)        |
 | Hash Tables  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/Data-Structures/hashtable)        |
 | Repeated Word  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/repeatedWord)        |
+| Tree Intersection  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/treeIntersection)        |
+
+
 
 
 

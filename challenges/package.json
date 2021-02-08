@@ -1,7 +1,6 @@
 {
   "name": "challenges",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "jest": "^26.6.3"
@@ -12,5 +11,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
