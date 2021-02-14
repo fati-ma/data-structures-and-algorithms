@@ -31,6 +31,8 @@
 | Repeated Word  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/repeatedWord)        |
 | Tree Intersection  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/treeIntersection)        |
 | Left Join  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/leftJoin)        |
+| Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/Data-Structures/graph)        |
+| Breadth First Search- Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/breadthFirst)        |
 
 
 
