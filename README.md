@@ -34,6 +34,7 @@
 | Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/Data-Structures/graph)        |
 | Breadth First Search - Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/breadthFirst)        |
 | Get Edge - Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/getEdge)        |
+| Depth First - Graph  | [Link](https://github.com/fati-ma/data-structures-and-algorithms/tree/main/challenges/depthFirst)        |
 
 
 
